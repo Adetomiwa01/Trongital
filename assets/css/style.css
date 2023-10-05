@@ -19324,6 +19324,9 @@ form + .row {
     -webkit-transition: .4s ease;
     -o-transition: .4s ease;
     transition: .4s ease; }
+    [class|="aboutImg"] {
+      padding: 100px;
+    }
     @media screen and (max-width: 375px) {
       [class|="newsletter-form"] [class*="input-alert"],
       [class|="search-form"] [class*="input-alert"] {
@@ -19355,6 +19358,9 @@ form + .row {
       box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.19);
       line-height: 37px;
       border-left: none; }
+      [class|="aboutImg"] {
+        padding: 10px;
+      }
       @media screen and (max-width: 480px) {
         [class|="newsletter-form"][class*="v2"] [class*="submit-wrap"] button,
         [class|="search-form"][class*="v2"] [class*="submit-wrap"] button {
