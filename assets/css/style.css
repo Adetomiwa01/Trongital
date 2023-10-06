@@ -7057,7 +7057,7 @@ readers do not read off random characters that represent icons */
 .ion-android-color-palette:before,
 .ion-android-compass:before,
 .ion-android-contact:before,
-.ion-android-contacts:before,
+.ion-android-Contact:before,
 .ion-android-contract:before,
 .ion-android-create:before,
 .ion-android-delete:before,
@@ -7947,7 +7947,7 @@ readers do not read off random characters that represent icons */
   content: "\f2d8";
 }
 
-.ion-android-contacts:before {
+.ion-android-Contact:before {
   content: "\f2d9";
 }
 
