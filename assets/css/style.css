@@ -31285,6 +31285,9 @@ form + .row {
     font-size: 0.75rem;
   }
 }
+[class|="top"] {
+  margin-left: -800px;
+}
 [class|="newsletter-form"] [class*="input-alert"].active,
 [class|="search-form"] [class*="input-alert"].active {
   opacity: 1;
@@ -31462,6 +31465,12 @@ form + .row {
   padding: 0 95px 0 1rem;
 }
 
+[class|="next"] {
+  margin-left: 50px;
+}
+[class|="top"] {
+  margin-left: 130px;
+}
 @media screen and (max-width: 480px) {
   [class|="search-form"] [class*="submit-wrap"] {
     position: absolute;
