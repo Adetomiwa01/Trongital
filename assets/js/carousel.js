@@ -4,9 +4,9 @@ var $ = jQuery.noConflict();
     "use strict";
 
     try {
-        var owlPortfolio = $('.portfolio-carousel');
+        var owlCase-Studies = $('.Case-Studies-carousel');
 
-        owlPortfolio.owlCarousel({
+        owlCase-Studies.owlCarousel({
             items: 3,
             lazyLoad: true,
             loop: true,
@@ -24,11 +24,11 @@ var $ = jQuery.noConflict();
                 }
             }
         });
-        $('.portfolio-wrap .navigation .nav--prev').on('click', function() {
-            owlPortfolio.trigger('prev.owl.carousel', [800]);
+        $('.Case-Studies-wrap .navigation .nav--prev').on('click', function() {
+            owlCase-Studies.trigger('prev.owl.carousel', [800]);
         });
-        $('.portfolio-wrap .navigation .nav--next').on('click', function() {
-            owlPortfolio.trigger('next.owl.carousel', [800]);
+        $('.Case-Studies-wrap .navigation .nav--next').on('click', function() {
+            owlCase-Studies.trigger('next.owl.carousel', [800]);
         });
 
     } catch (err) {
