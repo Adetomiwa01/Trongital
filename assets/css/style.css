@@ -31548,8 +31548,7 @@ form + .row {
   opacity: 0.4;
 }
 
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
+
 [class|="page-header"] {
   position: relative;
 }
@@ -31585,6 +31584,7 @@ form + .row {
   [class|="page-header"][class*="hfixedlg"] {
     margin-top: -81px;
   }
+ 
 }
 [class|="page-header"][class*="hfixedmd"] {
   margin-top: -92px;
@@ -31810,6 +31810,10 @@ form + .row {
   mask-size: 100% 101%;
   background: #fff;
   background: #fff;
+}
+[class|="policy"] {
+  color: red;
+  margin-left: 50px;
 }
 @media (max-width: 1199px) {
   [class|="page-header"][class*="bg"][class*="round"] [class|="imagebg"] img,
